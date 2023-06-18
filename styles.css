@@ -43,6 +43,7 @@ body {
 }
 
 .resume__block {
+    position: relative;
     border-bottom: 3px solid var(--border-color);
     padding-bottom: 30px;
     margin-bottom: 15px;
@@ -260,4 +261,12 @@ body {
 
 .additional-info__languages-item {
     color: var(--secondary-text-color);
+}
+
+.autoresume-link {
+    position: absolute;
+    right: 0;
+    text-decoration: none;
+    font-size: 12px;
+    color: gray;
 }
